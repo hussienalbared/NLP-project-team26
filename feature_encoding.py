@@ -58,6 +58,8 @@ def get_glove_encodings(x_train, x_test, y_train, y_test, dim=100):
     Returns:
         X_train_glove: PyTorch tensor of shape (num_train_examples, dim)
         X_test_glove: PyTorch tensor of shape (num_test_examples, dim)
+        Y_train_glove: PyTorch tensor of shape (num_train_examples,)
+        Y_test_glove: PyTorch tensor of shape (num_test_examples,)
     """
     # load the GloVe embeddings
     glove_embeddings = load_glove_embeddings(glove_file)
