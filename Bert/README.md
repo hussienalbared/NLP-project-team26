@@ -1,6 +1,7 @@
-# SPAM DETECTION
-This folder contains code for a fine-tuned BERT model that can accurately detect sarcasm in text. By leveraging the powerful capabilities of BERT
+# SARCASM DETECTION
+
 # BERT Folder Strucuture
+This folder contains code for a fine-tuned BERT model that can accurately detect sarcasm in text. By leveraging the powerful capabilities of BERT
 
 ## bert.ipynb 
 Jupyter Notebook for Sarcasm Detection using Fine-Tuned BERT.
@@ -11,7 +12,7 @@ Inside the "output" folder, you will find two  files:
 "config.json":
     This file contains the saved parameters  of the fine-tuned BERT model.
 
-    "trainer_state.json":
+"trainer_state.json":
     This file contains the results and performance metrics of the fine-tuned BERT model. It includes evaluation metrics such as accuracy, precision, recall, F1 score.
 ### Data folder
 In the "Data" folder, which was not committed due to its size, you would typically expect to find the dataset used to train and test the sarcasm detection model.
